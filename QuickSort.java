@@ -32,10 +32,10 @@ private int partition(double[] arr, int left, int right) {
         return left;
     }
 }
-}
 
 private void swap(double[] arr, int i, int j) {
     double tmp = arr[i];
     arr[i] = arr[j];
     arr[j] = tmp;
+}
 }
